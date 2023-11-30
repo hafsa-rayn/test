@@ -37,8 +37,6 @@ Create a .env file in the dashboard package directory. Refer to example env
 
 **6. Start the Application:**
 
-Start the dashboard:
-
 <pre><code><span style="color: yellow">yarn</span> dashboard:dev</code></pre>
 
 ## Dashboard Directory Structure
@@ -76,7 +74,7 @@ Start the dashboard:
 
 **Comments**
 
-- nclude a concise comment for each component to explain its purpose.
+- Include a concise comment for each component to explain its purpose.
 
 **Types**
 
@@ -102,6 +100,6 @@ Start the dashboard:
 ## Contact Information
 
 - _Senior Software Engineer_ `haziq@rayn.group`
-- _Software Engineer II_ `a.masood@rayn.group`
-- _Software Engineer I_ `hafsa@rayn.group`
-- _Software Engineer I_ `mehroze@rayn.group`
+- _Software Engineer II_     `a.masood@rayn.group`
+- _Software Engineer I_      `hafsa@rayn.group`
+- _Software Engineer I_      `mehroze@rayn.group`
