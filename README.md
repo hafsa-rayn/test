@@ -91,6 +91,7 @@ After all dependencies and environment variables are set up, start the dashboard
 
 - Ant Design Components over own coded components
 - Ant Design styling over own styling ( for example using ant design flex for layout)
+- For Ant Design component styling, add it in shared/providers/theme
 - If its necessary to add any styles, make a .less file for that specific component
 
 **Code Formatting**
