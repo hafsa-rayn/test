@@ -66,34 +66,34 @@ Create a .env file in the dashboard package directory. Refer to example env
 
 ## Code Style and Guidelines
 
-**Naming Convention**
+**1. Naming Convention**
 
 - CamelCase for variable names
 - CamelCase for file names
 - Prefer small case for folder names; use CamelCase only if absolutely necessary.
 
-**Comments**
+**2. Comments**
 
 - Include a concise comment for each component to explain its purpose.
 
-**Types**
+**3. Types**
 
 - Define types consistently throughout the codebase and organize them in their respective types folder.
 
-**Folder Structure**
+**4. Folder Structure**
 
 - Organize each feature within its dedicated folder in the feature directory.
 - Within each feature folder, include separate directories for components, types, and queries.
 - Centralize reusable or shared elements in the shared folder.
 
-**Styling**
+**5. Styling**
 
 - Prioritize the use of Ant Design components over custom-coded components
 - Favor Ant Design styling, for example using Ant Design flex for layout
 - For Ant Design component styling, incorporate it in `shared/providers/theme.ts`
 - If custom styles are necessary, create a .less file specific to that component
 
-**Code Formatting**
+**6.Code Formatting**
 
 - Adhere to formatting rules diligently before making any commits.
 
