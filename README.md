@@ -29,11 +29,11 @@ Install the necessary dependencies listed in the root package.json file by runni
 
 **5. Environment Variables Setup:**
 
-Create a .env file in the dashboard package directory. Refer to example env
+Create a .env file in the dashboard package directory. Refer to example env.
 
 **6. Start the Application:**
 
-In the root directory run the following command:
+In the root directory run the following command to run the dashboard:
 <pre><code><span style="color: yellow">yarn</span> dashboard:dev</code></pre>
 
 ## Dashboard Directory Structure
