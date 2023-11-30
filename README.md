@@ -1,5 +1,5 @@
-# **LATS-KMS**
-_A mono-repo for LATS-KMS_
+# **LATS x KMS**
+_A mono-repo for LATS x KMS_
 
 ## Project Overview
 
@@ -58,6 +58,7 @@ The commands to start the respective packages
 - Typescript in React
 - Ant Design Framework
 - NodeJs Express in Typescript
+- SQLite with TypeORM
 - Linter & Prettier as Formatters
 - Yarn 
 
@@ -84,6 +85,9 @@ A specific branch naming convention is followed to ensure clarity, organization,
 ```
 [dashboard]: GetMembers Endpoint Integration
 ```
+## Additional Information
+For comprehensive details on each package, please refer to the respective package's README.
+
 
 ## Contact Information
 
