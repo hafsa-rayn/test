@@ -26,7 +26,7 @@ Change your current working directory to the project folder:
 Install the necessary dependencies listed in the root package.json file by running the following command in the root directory:
 <pre><code><span style="color: yellow">yarn</span> install</code></pre>
 
-**5. Environment Variables Setup:**
+**5. Setup Environment Variables:**
 
 Create .env files in each of the packages directory. Refer to example envs.
 
