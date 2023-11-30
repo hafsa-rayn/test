@@ -8,10 +8,7 @@ This project aims to optimize KMS's farm management and auditing processes. The 
 
 **1. Install Node.js:**
 
-Install Node.js:
-[nodejs.org][1]
-
-[1]: https://nodejs.org/en/download 'nodeJs download'
+Install [Node.js](https://nodejs.org/en/download 'nodeJs download')
 
 **2. Clone the Repository:**
 
