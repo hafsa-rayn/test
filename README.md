@@ -1,6 +1,6 @@
 # **Dashboard Package**
 
-## **Package Overview**
+## Package Overview
 
 This project aims to optimize KMS's farm management and auditing processes. The Dashboard Package, developed using TypeScript in React, serves as the frontend component of the project. It encompasses the visualization and interaction aspects of tracks, boundaries, farm and officer data, route optimization, and the task assignment.
 
@@ -41,7 +41,7 @@ After all dependencies and environment variables are set up, start the dashboard
 
 <pre><code><span style="color: yellow">yarn</span> dashboard:dev</code></pre>
 
-**Dashboard Directory Structure**
+## Dashboard Directory Structure
 
 - /public
 - /src
@@ -60,39 +60,44 @@ After all dependencies and environment variables are set up, start the dashboard
 - .prettierrc
 - .eslintrc
 
-**Technologies Used**
+# Technologies Used
 
 - Typescript in React
-- Ant Design Framework 
+- Ant Design Framework
 - Linter & Prettier Formatters
 
-**Code Style and Guidelines**
+# **Code Style and Guidelines**
 
-**Naming Convention**
+## Naming Convention
+
 - CamelCase for variable names
-- CamelCase for file names 
+- CamelCase for file names
 - CamelCase for folder names (only if very necessary, small case preferred with folders)
 
-**Comments**
+## Comments
+
 - Each component should have a concise comment explaining it
 
-**Types**
-- Always define types for component arguments, 
+## Types
 
-**Folder Structure**
+- Always define types for component arguments,
+
+## Folder Structure
+
 - Each feature goes in its own folder in the feature folder
 - Each feature folder has its own components, types, queries
 
-**Styling**
-- Ant Design Components over own coded components 
+## Styling
+
+- Ant Design Components over own coded components
 - Ant Design styling over own styling ( for example using ant design flex for layout)
 - If its necessary to add any styles, make a .less file for that specific component
 
-**Code Formatting**
+## Code Formatting
+
 - Ensure you're following all formatting rules before committing
 
-
-## **Contact Information**
+## Contact Information
 
 - _Senior Software Engineer_ `haziq@rayn.group`
 - _Software Engineer II_ `a.masood@rayn.group`
