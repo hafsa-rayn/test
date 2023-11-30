@@ -8,7 +8,7 @@ This project aims to optimize KMS's farm management and auditing processes. The 
 
 **1. Install Node.js:**
 
-Install Node.js from:
+Install Node.js:
 [nodejs.org][1]
 
 [1]: https://nodejs.org/en/download 'nodeJs download'
@@ -90,7 +90,7 @@ Create a .env file in the dashboard package directory. Refer to example env
 
 - Prioritize the use of Ant Design components over custom-coded components
 - Favor Ant Design styling, for example using Ant Design flex for layout
-- For Ant Design component styling, incorporate it in `shared/providers/theme.ts`
+- For Ant Design global component styling, incorporate it in `shared/providers/theme.ts`
 - If custom styles are necessary, create a .less file specific to that component
 
 **6.Code Formatting**
