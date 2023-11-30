@@ -68,13 +68,13 @@ After all dependencies and environment variables are set up, start the dashboard
 
 ## Code Style and Guidelines
 
-### Naming Convention
+**Naming Convention**
 
 - CamelCase for variable names
 - CamelCase for file names
 - CamelCase for folder names (only if very necessary, small case preferred with folders)
 
-### Comments
+#### Comments
 
 - Each component should have a concise comment explaining it
 
