@@ -63,32 +63,32 @@ In the root directory run the following command:
 
 ## Code Style and Guidelines
 
-**1. Naming Convention**
-
-- CamelCase for variable names
-- CamelCase for file names
-- Prefer small case for folder names; use CamelCase only if absolutely necessary.
-
-**2. Comments**
-
-- Include a concise comment for each component to explain its purpose.
-
-**3. Types**
-
-- Define types consistently throughout the codebase and organize them in their respective types folder.
-
-**4. Folder Structure**
+**1. Folder Structure**
 
 - Organize each feature within its dedicated folder in the feature directory.
 - Within each feature folder, include separate directories for components, types, and queries.
 - Centralize reusable or shared elements in the shared folder.
 
-**5. Styling**
+**2. Naming Convention**
+
+- CamelCase for variable names
+- CamelCase for file names
+- Prefer small case for folder names; use CamelCase only if absolutely necessary.
+
+**3. Styling**
 
 - Prioritize the use of Ant Design components over custom-coded components
 - Favor Ant Design styling, for example using Ant Design flex for layout
 - For Ant Design global component styling, incorporate it in `shared/providers/theme.ts`
 - If custom styles are necessary, create a .less file specific to that component
+
+**4. Comments**
+
+- Include a concise comment for each component to explain its purpose.
+
+**5. Types**
+
+- Define types consistently throughout the codebase and organize them in their respective types folder.
 
 **6. Code Formatting**
 
