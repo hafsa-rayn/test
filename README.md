@@ -8,37 +8,36 @@ This project aims to optimize KMS's farm management and auditing processes. The 
 
 **1. Install Node.js:**
 
-`Install Node.js from: `
+Install Node.js from:
 [nodejs.org][1]
 
 [1]: https://nodejs.org/en/download 'nodeJs download'
 
 **2. Clone the Repository:**
 
-`Clone the project repository to your local machine. Navigate to the desired directory and run:`
+Clone the project repository to your local machine. Navigate to the desired directory and run:
 
 <pre><code><span style="color: yellow">git</span> clone [Repository URL]</code></pre>
 
 **3. Navigate to Project Directory:**
 
-`Change your current working directory to the project folder:`
+Change your current working directory to the project folder:
 
 <pre><code><span style="color: yellow">cd</span> clone [Project Folder Name]</code></pre>
 
 **4. Install Dependencies:**
 
-`Install the necessary dependencies listed in the root package.json file by running:`
+Install the necessary dependencies listed in the root package.json file by running:
 
 <pre><code><span style="color: yellow">yarn</span> install</code></pre>
 
 **5. Environment Variables Setup:**
 
-`Create a .env file in the dashboard package directory to store environment variables with help of the example env file
-`
+Create a .env file in the dashboard package directory to store environment variables with help of the example env file
 
 **6. Start the Application:**
 
-`After all dependencies and environment variables are set up, start the dashboard by running:`
+After all dependencies and environment variables are set up, start the dashboard by running:
 
 <pre><code><span style="color: yellow">yarn</span> dashboard:dev</code></pre>
 
