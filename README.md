@@ -3,7 +3,7 @@ _A mono-repo for LATS-KMS_
 
 ## Project Overview
 
-This project aims to optimize KMS's farm management and auditing processes by establishing a robust system for streamlined administrative boundary mapping, improved field force tracking, and the introduction of geofencing capabilities.
+This project aims to optimize KMS's farm management and auditing processes by establishing a robust system for streamlined administrative boundary mapping, improved field force tracking, route optimisation, and the introduction of geofencing capabilities.
 
 ## **Installation**
 
@@ -55,13 +55,12 @@ The commands to start the respective packages
 
 ## Technologies/Tools
 
-#### Frontend
 - Typescript in React
 - Ant Design Framework
+- NodeJs Express in Typescript
 - Linter & Prettier as Formatters
-#### Backend
-- NodeJs Express
-- Typescript
+- Yarn 
+
 
 ## Contributing
 
