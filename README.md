@@ -90,7 +90,7 @@ Create a .env file in the dashboard package directory. Refer to example env
 - For Ant Design global component styling, incorporate it in `shared/providers/theme.ts`
 - If custom styles are necessary, create a .less file specific to that component
 
-**6.Code Formatting**
+**6. Code Formatting**
 
 - Adhere to formatting rules diligently before making any commits.
 
