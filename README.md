@@ -1,14 +1,13 @@
-# **Dashboard Package**
+# **LATS-KMS**
+_A mono-repo for LATS-KMS_
 
-## Package Overview
+## Project Overview
 
-This project aims to optimize KMS's farm management and auditing processes. The Dashboard Package, developed using TypeScript in React, serves as the frontend component of the project. It encompasses the visualization and interaction aspects of tracks, boundaries, farm and officer data, route optimization, and the task assignment.
+This project aims to optimize KMS's farm management and auditing processes by establishing a robust system for streamlined administrative boundary mapping, improved field force tracking, and the introduction of geofencing capabilities.
 
 ## **Installation**
 
-**1. Install Node.js:**
-
-[Node.js](https://nodejs.org/en/download 'nodeJs download')
+**1. Install [Node.js](https://nodejs.org/en/download 'nodeJs download'):**
 
 **2. Clone the Repository:**
 
@@ -29,70 +28,63 @@ Install the necessary dependencies listed in the root package.json file by runni
 
 **5. Environment Variables Setup:**
 
-Create a .env file in the dashboard package directory. Refer to example env.
+Create .env files in each of the packages directory. Refer to example envs.
 
-**6. Start the Application:**
+## **Usage**
 
-In the root directory run the following command to run the dashboard:
+The commands to start the respective packages
+
+<pre><code><span style="color: yellow">yarn</span> operations:dev</code></pre>
+
+<pre><code><span style="color: yellow">yarn</span> authentication:dev</code></pre>
+
 <pre><code><span style="color: yellow">yarn</span> dashboard:dev</code></pre>
 
-## Dashboard Directory Structure
+<pre><code><span style="color: yellow">yarn</span> cron:dev</code></pre>
+
+## Directory Structure
 
 - /public
-- /src
-  - /assets
-  - /config
-  - /features
-  - /pages
-  - /shared
-- App.less
-- App.tsx
-- index.less
-- index.tsx
-- .env
-- craco.config.js
-- tsconfig.json
-- .prettierrc
-- .eslintrc
+- /packages
+  - /authentication
+  - /common
+  - /cronHandler
+  - /dashboard
+  - /operations
+- package.json
 
-## Technologies Used
+## Technologies/Tools
 
+#### Frontend
 - Typescript in React
 - Ant Design Framework
 - Linter & Prettier as Formatters
+#### Backend
+- NodeJs Express
+- Typescript
 
-## Code Style and Guidelines
+## Contributing
 
-**1. Folder Structure**
+**Branch Naming Convention**
 
-- Organize each feature within its dedicated folder in the feature directory.
-- Within each feature folder, include separate directories for components, types, and queries.
-- Centralize reusable or shared elements in the shared folder.
+A specific branch naming convention is followed to ensure clarity, organization, and easy tracking of different development tasks. Our naming convention for branches is as follows:
 
-**2. Naming Convention**
+- Bugfix Branches: **bugfix/[clickup_ticketID]-[branch_name]**
+  `Example: bugfix/812hj3asd-missed_area_markers`
 
-- CamelCase for variable names
-- CamelCase for file names
-- Prefer small case for folder names; use CamelCase only if absolutely necessary.
+- Feature Branches: **feature/[clickup_ticketID]-[branch_name]**
+  `Example: feature/812hj3asd-add_legacy_package`
 
-**3. Styling**
+**Commit Message Conventions**
 
-- Prioritize the use of Ant Design components over custom-coded components
-- Favor Ant Design styling, for example using Ant Design flex for layout
-- For Ant Design global component styling, incorporate it in `shared/providers/theme.ts`
-- If custom styles are necessary, create a .less file specific to that component
+- Verbosity: Keep commit messages concise and clear. 
+- Prefixes: Use the package tag to quickly identify the package of the commit.
 
-**4. Comments**
+`Example:`
 
-- Include a concise comment for each component to explain its purpose.
-
-**5. Types**
-
-- Define types consistently throughout the codebase and organize them in their respective types folder.
-
-**6. Code Formatting**
-
-- Adhere to formatting rules diligently before making any commits.
+```
+[dashboard]: GetMembers Endpoint Integration
+```
 
 ## Contact Information
 
