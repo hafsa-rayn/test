@@ -20,7 +20,7 @@ Clone the project repository to your local machine. Navigate to the desired dire
 
 Change your current working directory to the project folder:
 
-<pre><code><span style="color: yellow">cd</span> clone [Project Folder Name]</code></pre>
+<pre><code><span style="color: yellow">cd</span> [Project Folder Name]</code></pre>
 
 **4. Install Dependencies:**
 
