@@ -33,11 +33,11 @@ Install the necessary dependencies listed in the root package.json file by runni
 
 **5. Environment Variables Setup:**
 
-Create a .env file in the dashboard package directory to store environment variables with help of the example env file
+Create a .env file in the dashboard package directory. Refer to example env
 
 **6. Start the Application:**
 
-After all dependencies and environment variables are set up, start the dashboard by running:
+Start the dashboard:
 
 <pre><code><span style="color: yellow">yarn</span> dashboard:dev</code></pre>
 
@@ -64,7 +64,7 @@ After all dependencies and environment variables are set up, start the dashboard
 
 - Typescript in React
 - Ant Design Framework
-- Linter & Prettier Formatters
+- Linter & Prettier as Formatters
 
 ## Code Style and Guidelines
 
@@ -72,31 +72,32 @@ After all dependencies and environment variables are set up, start the dashboard
 
 - CamelCase for variable names
 - CamelCase for file names
-- CamelCase for folder names (only if very necessary, small case preferred with folders)
+- Prefer small case for folder names; use CamelCase only if absolutely necessary.
 
 **Comments**
 
-- Each component should have a concise comment explaining it
+- nclude a concise comment for each component to explain its purpose.
 
 **Types**
 
-- Always define types for component arguments,
+- Define types consistently throughout the codebase and organize them in their respective types folder.
 
 **Folder Structure**
 
-- Each feature goes in its own folder in the feature folder
-- Each feature folder has its own components, types, queries
+- Organize each feature within its dedicated folder in the feature directory.
+- Within each feature folder, include separate directories for components, types, and queries.
+- Centralize reusable or shared elements in the shared folder.
 
 **Styling**
 
-- Ant Design Components over own coded components
-- Ant Design styling over own styling ( for example using ant design flex for layout)
-- For Ant Design component styling, add it in shared/providers/theme
-- If its necessary to add any styles, make a .less file for that specific component
+- Prioritize the use of Ant Design components over custom-coded components
+- Favor Ant Design styling, for example using Ant Design flex for layout
+- For Ant Design component styling, incorporate it in `shared/providers/theme.ts`
+- If custom styles are necessary, create a .less file specific to that component
 
 **Code Formatting**
 
-- Ensure you're following all formatting rules before committing
+- Adhere to formatting rules diligently before making any commits.
 
 ## Contact Information
 
