@@ -24,8 +24,7 @@ Change your current working directory to the project folder:
 
 **4. Install Dependencies:**
 
-Install the necessary dependencies listed in the root package.json file by running:
-
+Install the necessary dependencies listed in the root package.json file by running the following command in the root directory:
 <pre><code><span style="color: yellow">yarn</span> install</code></pre>
 
 **5. Environment Variables Setup:**
@@ -33,7 +32,7 @@ Install the necessary dependencies listed in the root package.json file by runni
 Create a .env file in the dashboard package directory. Refer to example env
 
 **6. Start the Application:**
-
+In the root directory run the following command:
 <pre><code><span style="color: yellow">yarn</span> dashboard:dev</code></pre>
 
 ## Dashboard Directory Structure
