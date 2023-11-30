@@ -74,26 +74,26 @@ After all dependencies and environment variables are set up, start the dashboard
 - CamelCase for file names
 - CamelCase for folder names (only if very necessary, small case preferred with folders)
 
-#### Comments
+**Comments**
 
 - Each component should have a concise comment explaining it
 
-### Types
+**Types**
 
 - Always define types for component arguments,
 
-### Folder Structure
+**Folder Structure**
 
 - Each feature goes in its own folder in the feature folder
 - Each feature folder has its own components, types, queries
 
-### Styling
+**Styling**
 
 - Ant Design Components over own coded components
 - Ant Design styling over own styling ( for example using ant design flex for layout)
 - If its necessary to add any styles, make a .less file for that specific component
 
-### Code Formatting
+**Code Formatting**
 
 - Ensure you're following all formatting rules before committing
 
