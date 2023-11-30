@@ -1,9 +1,9 @@
 # **LATS x KMS**
-_A mono-repo for LATS x KMS_
+_MonoRepo, Tracking, Geofencing, Route Optimization_
 
 ## Project Overview
 
-This project aims to optimize KMS's farm management and auditing processes by establishing a robust system for streamlined administrative boundary mapping, improved field force tracking, route optimisation, and the introduction of geofencing capabilities.
+This project aims to optimize KMS's farm management and auditing processes by establishing a robust system for streamlined administrative boundary mapping, improved field force tracking, route optimization, and the introduction of geofencing capabilities.
 
 ## **Installation**
 
