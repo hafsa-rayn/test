@@ -56,12 +56,12 @@ Make sure all other services are also running [ Refer to their specific readme's
 - .prettierrc
 - .eslintrc
 
-## Technologies/Tools
+## Tech Stack
 
 - Typescript in React
 - Ant Design Framework
-- Yarn
-- Linter & Prettier as Formatters
+- Yarn Package Manager
+- Code Quality Tools: Linter & Prettier
 
 ## Code Style and Guidelines
 
