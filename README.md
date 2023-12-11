@@ -48,7 +48,7 @@ Make sure all other services are also running [ Refer to their specific readme's
 picture
 https://docs.google.com/document/d/15zVfrCnDrIMIMZwcg4nOOQO-aw0UcEX5upXoVuZWai0/edit
 
-# Directory Structure
+### Directory Structure
 
 - /public
 - /src
@@ -67,7 +67,7 @@ https://docs.google.com/document/d/15zVfrCnDrIMIMZwcg4nOOQO-aw0UcEX5upXoVuZWai0/
 - .prettierrc
 - .eslintrc
 
-# Component Architecture
+### Component Architecture
 https://minkovski-d.medium.com/the-path-to-a-scalable-and-maintainable-react-frontend-architecture-23114b4b9845
 
 
