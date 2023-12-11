@@ -37,7 +37,18 @@ In the root directory run the following command to start the dashboard:
 <pre><code><span style="color: yellow">yarn</span> dashboard:dev</code></pre>
 Make sure all other services are also running [ Refer to their specific readme's]
 
-## Dashboard Directory Structure
+## Tech Stack
+
+- Typescript in React
+- Ant Design Framework
+- Yarn Package Manager
+- Code Quality Tools: Prettier + Linter
+
+## Dashboard Architecture
+picture
+https://docs.google.com/document/d/15zVfrCnDrIMIMZwcg4nOOQO-aw0UcEX5upXoVuZWai0/edit
+
+# Directory Structure
 
 - /public
 - /src
@@ -56,46 +67,16 @@ Make sure all other services are also running [ Refer to their specific readme's
 - .prettierrc
 - .eslintrc
 
-## Tech Stack
-
-- Typescript in React
-- Ant Design Framework
-- Yarn Package Manager
-- Code Quality Tools: Linter & Prettier
-
-## Code Style and Guidelines
-
-**1. Folder Structure**
-
-- Organize each feature within its dedicated folder in the feature directory.
-- Within each feature folder, include separate directories for components, types, and queries.
-- Centralize reusable or shared elements in the shared folder.
+# Component Architecture
+https://minkovski-d.medium.com/the-path-to-a-scalable-and-maintainable-react-frontend-architecture-23114b4b9845
 
 
-**2. Styling**
+## Useful Links & External Services
 
-- Prioritize the use of Ant Design components over custom-coded components
-- Favor Ant Design styling, for example using Ant Design flex for layout
-- For Ant Design global component styling, incorporate it in `shared/providers/theme.ts`
-- If custom styles are necessary, create a .less file specific to that component
-
-**3. Comments**
-
-- Include a concise comment for each component to explain its purpose.
-
-**4. Types**
-
-- Define types consistently throughout the codebase and organize them in their respective types folder.
-
-**5. Code Formatting**
-
-- Adhere to formatting rules diligently before making any commits.
-
-## Useful links & external services
 - Project Guidelines
 - Technical Decisions document
 - Swagger API docs 
-- Frontend React Style Guide
+- Code Style Guidelines ( read this before your first contribution)
 - Third party services: Google Analytics, 
 
 
