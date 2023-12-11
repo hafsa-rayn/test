@@ -1,13 +1,14 @@
-# **LATS x KMS**
-_MonoRepo, Tracking, Geofencing, Route Optimization_
+# **Dashboard Package**
 
-## Project Overview
+## Package Overview
 
-This project aims to optimize KMS's farm management and auditing processes by establishing a robust system for streamlined administrative boundary mapping, improved field force tracking, route optimization, and the introduction of geofencing capabilities.
+This project aims to optimize KMS's farm management and auditing processes. The Dashboard Package, developed using TypeScript in React, serves as the frontend component of the project. It encompasses the visualization and interaction aspects of tracks, boundaries, farm and officer data, route optimization, and the task assignment.
 
 ## **Installation**
 
-**1. Install [Node.js](https://nodejs.org/en/download 'nodeJs download'):**
+**1. Install Node.js:**
+
+[Node.js](https://nodejs.org/en/download 'nodeJs download')
 
 **2. Clone the Repository:**
 
@@ -28,65 +29,74 @@ Install the necessary dependencies listed in the root package.json file by runni
 
 **5. Setup Environment Variables:**
 
-Create .env files in each of the packages directory. Refer to example envs.
+Create a .env file in the dashboard package directory. Refer to example env.
 
-## **Usage**
+**6. Start the Application:**
 
-The commands to start the respective packages
-
-<pre><code><span style="color: yellow">yarn</span> operations:dev</code></pre>
-
-<pre><code><span style="color: yellow">yarn</span> authentication:dev</code></pre>
-
+In the root directory run the following command to start the dashboard:
 <pre><code><span style="color: yellow">yarn</span> dashboard:dev</code></pre>
+Make sure all other services are also running [ Refer to their specific readme's]
 
-<pre><code><span style="color: yellow">yarn</span> cron:dev</code></pre>
-
-## Directory Structure
+## Dashboard Directory Structure
 
 - /public
-- /packages
-  - /authentication
-  - /common
-  - /cronHandler
-  - /dashboard
-  - /operations
-- package.json
+- /src
+  - /assets
+  - /config
+  - /features
+  - /pages
+  - /shared
+- App.less
+- App.tsx
+- index.less
+- index.tsx
+- .env
+- craco.config.js
+- tsconfig.json
+- .prettierrc
+- .eslintrc
 
 ## Technologies/Tools
 
 - Typescript in React
 - Ant Design Framework
-- NodeJs Express in Typescript
-- SQLite with TypeORM
+- Yarn
 - Linter & Prettier as Formatters
-- Yarn 
+
+## Code Style and Guidelines
+
+**1. Folder Structure**
+
+- Organize each feature within its dedicated folder in the feature directory.
+- Within each feature folder, include separate directories for components, types, and queries.
+- Centralize reusable or shared elements in the shared folder.
 
 
-## Contributing
+**2. Styling**
 
-**Branch Naming Convention**
+- Prioritize the use of Ant Design components over custom-coded components
+- Favor Ant Design styling, for example using Ant Design flex for layout
+- For Ant Design global component styling, incorporate it in `shared/providers/theme.ts`
+- If custom styles are necessary, create a .less file specific to that component
 
-A specific branch naming convention is followed to ensure clarity, organization, and easy tracking of different development tasks. Our naming convention for branches is as follows:
+**3. Comments**
 
-- Bugfix Branches: **bugfix/[clickup_ticketID]-[branch_name]**
-  `Example: bugfix/812hj3asd-missed_area_markers`
+- Include a concise comment for each component to explain its purpose.
 
-- Feature Branches: **feature/[clickup_ticketID]-[branch_name]**
-  `Example: feature/812hj3asd-add_legacy_package`
+**4. Types**
 
-**Commit Message Conventions**
+- Define types consistently throughout the codebase and organize them in their respective types folder.
 
-- Verbosity: Keep commit messages concise and clear. 
-- Prefixes: Use the package tag to quickly identify the package of the commit.
+**5. Code Formatting**
 
-`Example:`
+- Adhere to formatting rules diligently before making any commits.
 
-```
-[dashboard]: GetMembers Endpoint Integration
-```
-## Additional Information
-For comprehensive details on each package, please refer to the respective package's README.
+## Useful links & external services
+- Project Guidelines
+- Technical Decisions document
+- Swagger API docs 
+- Frontend React Style Guide
+- Third party services: Google Analytics, 
 
 
 ## Contact Information
