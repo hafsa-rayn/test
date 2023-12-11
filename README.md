@@ -76,7 +76,7 @@ https://minkovski-d.medium.com/the-path-to-a-scalable-and-maintainable-react-fro
 - Project Guidelines
 - Technical Decisions document
 - Swagger API docs 
-- Code Style Guidelines ( read this before your first contribution)
+- Code Style Guidelines ( read this before your first contribution )
 - Third party services: Google Analytics, 
 
 
